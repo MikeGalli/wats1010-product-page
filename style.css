@@ -1,100 +1,77 @@
 @font-face {
-  font-family: 'MyWebFont';
-  src: url('SelznickRemixNF.eot'); /* IE9 Compat Modes */
-  src: url('SelznickRemixNF.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('SelznickRemixNF.woff2') format('woff2'), /* Super Modern Browsers */
-       url('SelznickRemixNF.woff') format('woff'), /* Pretty Modern Browsers */
-       url('SelznickRemixNF.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('SelznickRemixNF.svg#SelznickRemixNF') format('svg'); /* Legacy iOS */
+	font-family: 'MyWebFont';
+	src: url('SelznickRemixNF.eot'); /* IE9 Compat Modes */
+	src: url('SelznickRemixNF.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */  url('SelznickRemixNF.woff2') format('woff2'), /* Super Modern Browsers */  url('SelznickRemixNF.woff') format('woff'), /* Pretty Modern Browsers */  url('SelznickRemixNF.ttf') format('truetype'), /* Safari, Android, iOS */  url('SelznickRemixNF.svg#SelznickRemixNF') format('svg'); /* Legacy iOS */
 }
-
-
 h1 {
-  font-family: 'MyWebFont', Fallback, sans-serif;
+	font-family: 'MyWebFont', Fallback, sans-serif;
+	font-weight: normal;
 }
-
-
-
-
-
 /* foundation/reset  foundation/reset  foundation/reset */
 html {
 	margin: 0;
 	padding: 0;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-	}
-
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
 body {
-    margin: 0;
-    font: 16px/1 sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+	margin: 0;
+	font: 16px/1 sans-serif;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
-h3,
-h4,
-p,
-blockquote,
-figure,
-ol,
-ul {
-    margin: 0;
-    padding: 0;
+/* h1, */
+h2, h3, h4, p, blockquote, figure, ol, ul {
+	margin: 0;
+	padding: 0;
 }
-main,
-li {
-    display: block;
+main, li {
+	display: block;
 }
-h1,
-h2,
-h3,
-h4 {
-    font-size: inherit;
+h1, h2, h3, h4 {
+	font-size: inherit;
 }
 strong {
-    font-weight: bold;
+/* 	font-weight: bold; */
 }
-a,
-button {
-    color: inherit;
-    transition: .3s;
+a, button {
+	color: inherit;
+	transition: .3s;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 button {
-    overflow: visible;
-    border: 0;
-    font: inherit;
-    -webkit-font-smoothing: inherit;
-    letter-spacing: inherit;
-    background: none;
-    cursor: pointer;
+	overflow: visible;
+	border: 0;
+	font: inherit;
+	-webkit-font-smoothing: inherit;
+	letter-spacing: inherit;
+	background: none;
+	cursor: pointer;
 }
 ::-moz-focus-inner {
-    padding: 0;
-    border: 0;
+ padding: 0;
+ border: 0;
 }
 :focus {
-    outline: 0;
+	outline: 0;
 }
 img {
-    max-width: 100%;
-    height: auto;
-    border: 0;
+	max-width: 100%;
+	height: auto;
+	border: 0;
 }
 /*Start CSS*/
 
 /* Basic Elements */
 a:link {
-	font-weight: bold;
+/* 	font-weight: bold; */
 	text-decoration: none;
 	color: #250033;
 }
 a:visited {
-	font-weight: bold;
+/* 	font-weight: bold; */
 	text-decoration: none;
 	color: #DC4DDC;
 }
@@ -110,188 +87,524 @@ abbr {
 
 /* specific divs */
 body {
-    background: url(plus_ultra_timeline_v15.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+	background: url(plus_ultra_timeline_v15.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.page-wrapper { 
-/* 	background-color: lightblue;  */
-	padding: 0 175px 0 110px;  
-	margin: 0; 
+.page-wrapper {
+	/* 	background-color: lightblue;  */
+	padding: 0 175px 0 110px;
+	margin: 0;
 	position: relative;
-	}
-
-
+}
 /* Intro  Intro  Intro  Intro  Intro  Intro */
 .intro { /*part of intro*/
 	background-color: rgba(154, 171, 241, 0.3);
 	width: 100%;
-	}
+}
+h2 {
+	font-family: 'Ropa Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 150%;
+}
+h3 {
+	font-family: 'Ropa Sans', sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+}
+.dots {
+	color: white;
+}
 header {	/*part of intro*/
-/* 	background-color: lightpink; */
-	padding-top: 20px;
-	width: 30%
-	height: 87px;
+	/* 	background-color: lightpink; */
+	padding-top: 60px;
+ width: 30%  height: 87px;
 }
 header h1 { /*part of intro*/
-/* 	background-color: grey; */
+	/* 	background-color: grey; */
+	font-size: 400%;
 	text-align: center;
 	width: 100%
-	}
-
+}
 .we-help { /*part of intro*/
 /* 	background-color: cornflowerblue; */
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 45%; 
+	margin-top: 30px; /*58px;* LAK*/ 
+	padding-left: 2rem; 
+	/*width: 45%; * LAK*/
+	width:100%;/* LAK*/
 	}
 .we-save { /*part of intro*/
 /* 	background-color: cornflowerblue; */
-	margin-top: 58px; 
+	margin-top: 30px; /*58px;* LAK*/ 
 	margin-bottom: 40px; 
-	margin-left: 100px;
-	width: 45%; 
+	/*margin-left: 100px;* LAK*/
+	padding-left: 2rem; /* LAK*/
+	/*width: 45%; * LAK*/
+	width:100%;/* LAK*/
 	}
-.not-money { /*part of intro*/
-/* 	background-color: cornflowerblue; */
-	margin-top: 58px; 
-	margin-bottom: 10px; 
-	margin-left: 555px;
-	width: 45%; 
-	padding: 10px;
-	}
-.summary {	/*part of intro*/
-	background-color: red;
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 80%; 
-	}
-.summary p {	/*part of intro*/
-	font: italic 1.1em/2.2 georgia; 
+	
+	
+/*DIVS*/
+.parent{
+    width:100%;
+	max-width:1000px;
+   /*background: red;*/
+	
+}
+.child{
+    float: left;
+	width:100%;
+    max-width:445px;
+    /*background:green;*/
+    height:auto;
+	padding:22px;
+}
+.child2{
+    float: left;
+	width:100%;
+    max-width:320px;
+    /*border:2px solid #000;*/
+    height:auto;
+	/*padding:22px;*/
+}
+/*////////////////Flip General//////////////////////////////////////////*/
+/* flip speed goes here */
+.flipper { /*part of intro*/
+	transition: 3s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+/* hide back of pane during swap */
+.front, .back { /*part of intro*/
+	backface-visibility: hidden;
+	position: absolute;
+}
+/* front pane, placed above back */
+.front { /*part of intro*/
+	z-index: 2;
+	/* 	background-color: #B29B90; */
+	padding-left: 5px;
+	font-size: 1.5em;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+.back { /*part of intro*/
+	transform: rotateY(180deg);
+	background-color: rgba(154, 171, 241, .7);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/*////////////////Flip General//////////////////////////////////////////*/
+
+/*/////////Sort of///////Flip #1///////////Flip #1///////////////////////////////*/
+.both-wrapper1 { /*part of intro*/
+	/* 	font-family: "Arial Black" Gadget, sans-serif; */
+	height: 62px;
+	position: relative;/*left: 40%;* LAK*/
+}
+/* flip the pane when hovered */
+.both1:hover .flipper, .both1.hover .flipper {
+	transform: rotateY(180deg);/*top: -40px;
+	left: -60%;* LAK*/
+}
+.both1, .front { /*part of intro*/
+	/*width: 320px;* LAK*/
+	height: 40px;
+	/*padding: 10px;* LAK*/
+	padding: 0px 20px 10px 15px;/* lAK*/
+}
+.both1, .back { /*part of intro*/
 	text-align: center;
-	}
+	width: 320px;
+	height: 60px;
+}
+/*/////////Sort of///////Flip #1///////////Flip #1///////////////////////////////*/
 
-.preamble {	/*part of intro*/
-	background-color: darkseagreen;
-	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
-/* Intro  Intro  Intro  Intro  Intro  Intro */
+/*//////////Dont sign up//////Flip #2///////////Flip #2///////////////////////////////*/
+/* flip speed goes here */
+.flipper2 { /*part of intro*/
+	transition: 3s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+/* hide back of pane during swap */
+.front2, .back2 { /*part of intro*/
+	backface-visibility: hidden;
+	position: absolute;
+}
+/* front pane, placed above back */
+.front2 { /*part of intro*/
+	z-index: 2;
+	/* 	background-color: #B29B90; */
+	padding-left: 5px;
+	font-size: 1.5em;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+.back2 { /*part of intro*/
+	transform: rotateY(180deg);
+	background-color: rgba(174, 188, 244, 0.85);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.both-wrapper2 { /*part of intro*/
+	/* 	font-family: "Arial Black" Gadget, sans-serif; 
+	height: 62px;*/
+	position: relative;
+	/*left: 10%;*/
+}
+/* flip the pane when hovered */
+.both2:hover .flipper2, .both2.hover .flipper2 {
+	transform: rotateY(180deg);
+	top: -100px;
+/* 	left: -100%;*/ */
+}
+.both2, .front2 { /*part of intro*/
+	/* 	background-color: rgba(154, 171, 241, 0.5); 
+	width: 40%;*/
+	width:100%;
+	max-width: 320px;
+	/*height: 200px;*/
+	padding: 0px 20px 10px 15px;/* lAK*/
+}
+.both2, .back2 { /*part of intro*/
+	text-align:left;
+	width: 320px;
+	height:200px;
+	font-weight:600;
+	padding:10px;
+}
+/*//////////Dont sign up//////Flip #2///////////Flip #2///////////////////////////////*/
 
-.header-buttons {
-	color: white;
-	vertical-align: text-bottom;
-	background-color: rgba(15, 13, 17, 0.8);
-    width: 100%;
-    min-height: 5vh;
-    position: absolute;
-    left: 0;
+/*///////FORBES/////////Flip #3///////////Flip #3///////////////////////////////*/
+.flipper3 { /*part of intro*/
+	transition: 3s;
+	transform-style: preserve-3d;
+	position: relative;
 }
-.header-buttons p {
-	margin-left: 60%;
+/* hide back of pane during swap */
+.front3, .back3 { /*part of intro*/
+	backface-visibility: hidden;
+	position: absolute;
 }
-/* main supporting main supporting main supporting main supporting */
+/* front pane, placed above back */
+.front3 { /*part of intro*/
+	z-index: 3;
+	/* 	background-color: #B29B90; */
+	padding-left: 5px;
+	font-size: 1.5em;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+.back3 { /*part of intro*/
+	transform: rotateY(180deg);
+	background-color: rgba(174, 188, 244, 0.85);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.both-wrapper3 { /*part of intro*/
+	/* 	font-family: "Arial Black" Gadget, sans-serif; */
+	height: 62px;
+	position: relative;
+	left: 10%;
+}
+/* flip the pane when hovered */
+.both3:hover .flipper3, .both3.hover .flipper3 {
+	transform: rotateY(180deg);
+	/*top: -100px;
+	left: -100%;*/
+}
+.both3, .front3 { /*part of intro*/
+	/* 	background-color: rgba(154, 171, 241, 0.5); 
+	width: 40%;*/
+	width:100%;
+	max-width: 320px;
+	/*height: 200px;*/
+	padding: 0px 20px 10px 15px;/* lAK*/
+}
+.both3, .back3 { /*part of intro*/
+	text-align:left;
+	width: 320px;
+	/*height:300px;*/
+	font-weight:600;
+	/*padding:10px;*/
+}
+/*///////FORBES/////////Flip #3///////////Flip #3///////////////////////////////*/
 
-.supporting {
-	width: 100%
-	display: -webkit-flex;
-    display: flex;
-	background-color: rgba(154, 171, 241, 0.5);
-	padding-left: 10px; 
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 40px;
-	margin-top: 80px;
-	}
-	
-.participation {
-/* 	background-color: rgba(142, 119, 121, 0.4); */
-	width: 50%;
-}
-.buttons {
-	margin: 20px;
-}
-.video {
-	background-color: rgba(15, 13, 17, 0.8);
-	width: 50%;
-}
-	
-/* main supporting main supporting main supporting main supporting */
-/* body copy  body copy  body copy  body copy  body copy  body copy */
-.bod {
-	width: 100%
-	display: -webkit-flex;
-    display: flex;
-}
-.body-copy {
-	background-color: rgba(154, 171, 241, 0.5);
-	padding: 1rem;
-	width: 50%;
-	margin-left: -5rem;
-}
-.dontsign {
-	background-color: rgba(154, 171, 241, 0.5);
-	width: 30%;
-	height: 2rem;
-	margin-left: 5rem;
-}
 
-/* body copy  body copy  body copy  body copy  body copy  body copy */
+.united {
+	font-weight: normal;
+	width: 30%
+}
+/*//////////United Health//////Flip #4//////////Flip #4///////////////////////////////*/
+/* flip speed goes here */
+.flipper4 { /*part of intro*/
+	transition: 3s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+/* hide back of pane during swap */
+.front4, .back4 { /*part of intro*/
+	backface-visibility: hidden;
+	position: absolute;
+}
+/* front pane, placed above back */
+.front4 { /*part of intro*/
+	z-index: 4;
+	/* 	background-color: #B29B90; */
+	padding-left: 5px;
+	font-size: 1.5em;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+.back4 { /*part of intro*/
+	transform: rotateY(180deg);
+	background-color: rgba(174, 188, 244, 0.85);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.both-wrapper4 { /*part of intro*/
+	/* 	font-family: "Arial Black" Gadget, sans-serif; */
+	height: 62px;
+	position: relative;
+	left: 10%;
+}
+/* flip the pane when hovered */
+.both4:hover .flipper4, .both4.hover .flipper4 {
+	transform: rotateY(180deg);
+	top: -100px;
+	/*left: -100%;*/
+}
+.both4, .front4 { /*part of intro*/
+	/* 	background-color: rgba(154, 171, 241, 0.5); 
+	width: 40%;*/
+	/*width: 320px;
+	height: 200px;*/
+	/*padding: 10px;*/
+}
+.both4, .back4 { /*part of intro*/
+	text-align: center;
+	width: 320px;
+	/*height: 900px;*/
+}
+/*//////////United Health//////Flip #4//////////Flip #4///////////////////////////////*/
 
+
+.nbc {
+	width: 30%
+}
+/*//////////NBC//////Flip #5//////////Flip #5///////////////////////////////*/
+/* flip speed goes here */
+.flipper5 { /*part of intro*/
+	transition: 3s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+/* hide back of pane during swap */
+.front5, .back5 { /*part of intro*/
+	backface-visibility: hidden;
+	position: absolute;
+}
+/* front pane, placed above back */
+.front5 { /*part of intro*/
+	z-index: 5;
+	/* 	background-color: #B29B90; */
+	padding-left: 5px;
+	font-size: 1.5em;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+.back5 { /*part of intro*/
+	transform: rotateY(180deg);
+	background-color: rgba(174, 188, 244, 0.85);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.both-wrapper5 { /*part of intro*/
+	/* 	font-family: "Arial Black" Gadget, sans-serif; */
+	height: 62px;
+	position: relative;
+	left: 10%;
+}
+/* flip the pane when hovered */
+.both5:hover .flipper5, .both5.hover .flipper5 {
+	transform: rotateY(180deg);
+	top: -100px;
+	left: -100%;
+}
+.both5, .front5 { /*part of intro*/
+	/* 	background-color: rgba(154, 171, 241, 0.5); 
+	width: 40%;*/
+	width: 320px;
+	/*height: 200px;
+	/*padding: 10px;*/
+}
+.both5, .back5 { /*part of intro*/
+	text-align: center;
+	/*width: 320px;*/
+	/*height: 900px;*/
+}
+/*//////////NBC//////Flip #5//////////Flip #5///////////////////////////////*/
 /* footer  footer  footer  footer  footer  footer  footer */
 
-
-
-footer {
-	background-color: rgba(154, 171, 241, 0.5); 
-}
-
-.testimonials { 
-	width: 100%
-	display: -webkit-flex;
-    display: flex;
-	background-color: rgba(154, 171, 241, 0.5); 
-	}
-.forbes { 
-	width: 30%
-	}
-.united { 
-	width: 30%
-	}
-.nbc { 
-	width: 30%
-	}
-/* footer  footer  footer  footer  footer  footer  footer */
+/**TESTIMONIALS**/
+.testimonials {height:200px;}
 
 
 /* sidebar  sidebar  sidebar  sidebar  sidebar  sidebar */
-.sidebar:hover{
-	width: 200px;
+.sidebar:hover {
+	width: 600px;
 }
-.select:before{
+.select:before {
 	content: "Samples here";
 	width: 600px;
-/* 	margin-left: 12rem; */
+	/* 	margin-left: 12rem; */
 	position: absolute;
 	right: 1rem;
 }
+.sidebar {
+	background: clear;
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	width: 20px;
+	transition: 3s width;
+	transition-property: width;
+	transition-duration: 3s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+}
+/* sidebar  sidebar  sidebar  sidebar  sidebar  sidebar */
 
-.sidebar{
-    background: clear;
-    position: fixed;
-    top: 50%;
-    right: 0px;
-    width: 20px;
-    transition: 3s width;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: initial;
-    transition-delay: initial;
+/* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+.page-wrapper {padding:0px!important;}}
+
+
+.header-buttons {		/* part of .main.supporting */
+	align-self: flex-end;
+	order: 4;
+	margin: auto;
+/* 	background-color: lightskyblue; */
+}
+.header-buttons a{		/* part of .main.supporting */
+	              font-family: helvetica, arial, sans-serif;
+                font-size:14px;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+                line-height:30px;
+                height:30px;
+                color:black;
+                cursor:pointer;
+                display: inline-block;
+                width:auto;
+                text-decoration:none !important;
+                
+                position: static;
+                /* these rules for the button press effect */
+                padding-top:1px;
+                padding-bottom:2px;
+
+                margin-top:-1px;
+                margin-bottom:1px;
+
+                padding-left:10px;
+                padding-right:10px;
+
+                margin-left:-1px;
+                margin-right:1px;
+                
+                /* default background-color */
+
+                background-color: #5064fb;
+                
+                /* the mighty gradient */
+
+                background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.6)), color-stop(0.49, rgba(255, 255, 255, 0.3)), color-stop(0.51, rgba(255, 255, 255, 0.0)), to(rgba(255, 255, 255, 0.2))); /* Chrome,Safari4+ */
+                background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.0) 51%, rgba(255, 255, 255, 0.2) 100%); /* Chrome10+,Safari5.1+ */
+                background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.0) 51%, rgba(255, 255, 255, 0.2) 100%); /* FF3.6+ */
+                background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.0) 51%, rgba(255, 255, 255, 0.2) 100%); /* Opera11.10+ */
+                background-image: linear-gradient(top, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.0) 51%, rgba(255, 255, 255, 0.2) 100%); /* W3C */
+
+                        
+                /* some nice roundy corners */
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -o-border-radius: 10px;
+                border-radius: 10px;
+                
+                /* for links in chrome */
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -o-box-sizing: border-box; 
+                box-sizing: border-box; 
+                
+                
+                /* a very subtle drop-shadow that ehances the pressed button effect */
+                -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.30);
+                -moz-box-shadow:    1px 1px 3px rgba(0, 0, 0, 0.30);
+                box-shadow:         1px 1px 3px rgba(0, 0, 0, 0.30); 
+
+                /* remove any inherited or default borders - especially important for the <button> element*/
+                border: 0 !important;
+
+                /* a subtle text inset effect which will also help to enhance the pressed button effect */
+                text-shadow:  rgba(255, 255, 255, 0.1) -1px 0, rgba(0, 0, 0, 0.3) 1px 1px;
+                
+                
+                /* and of course a little animated background-color fade effect */
+
+                -webkit-transition: background-color 0.3s ease;
+                -moz-transition: background-color 0.3s ease;
+                -o-transition: background-color 0.3s ease;
+                -ms-transition: background-color 0.3s ease;
+                transition: background-color 0.3s ease;
+
+            }
+/* submit and reset buttons */
+            input.glossy-button{
+                vertical-align: middle;
+                line-height: normal !important;
+                padding-bottom: 0;
+            }
+/* remove ugly dotted border */
+            :focus{
+                outline:none;
+            }
+            ::-moz-focus-inner{
+                border:0;
+}
+.header-buttons a:hover{
+	background-color: #59b606;
+}
+.header-buttons a:active{
+	              background-color: #333333;
+                border-color: #333333;
+                color:#eeeeee;
+                
+                padding-top:0;
+                padding-bottom:0;
+
+                margin-top:0;
+                margin-bottom:0;
+
+                padding-left:10px;
+                padding-right:10px;
+
+                margin-left:0;
+                margin-right:0;
+                
+                box-shadow: none;
+                
+                text-shadow: rgba(0, 0, 0, 0.4) 0 -1px, rgba(255, 255, 255, 0.3) 0 1px;
+                color:rgba(255, 255, 255, 0.9);
 }
 
 
-	
-
-/* sidebar  sidebar  sidebar  sidebar  sidebar  sidebar */
 
